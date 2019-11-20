@@ -1,0 +1,6 @@
+
+keytool -export -alias cgo -keystore cgo.keystore -file publickey.cer
+
+keytool -genkeypair -alias cgo -keyalg RSA -keypass cgopwd -keystore cgo.keystore -storepass cgostorepwd
+
+找回问题=a
